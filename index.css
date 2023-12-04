@@ -51,6 +51,7 @@ body::before {
     font-family: "Lobster Two", sans-serif;
     position: relative;
     max-width: 90vw;
+    text-align: center;
 }
 
 .textSmall {
@@ -89,6 +90,9 @@ body::before {
     right: 2rem;
     animation:  float 3.5s infinite;
     box-shadow:unset;
+}
+#ig{
+    right: 6.5rem !important;
 }
 .floater img {
     animation: floatShadow 3.5s infinite;
